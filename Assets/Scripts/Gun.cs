@@ -23,7 +23,7 @@ public class Gun : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonUp{0})
+        if (Input.GetMouseButtonUp(0))
         {
             CancelInvoke("fireBullet");
         }
