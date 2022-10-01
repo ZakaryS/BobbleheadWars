@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 50.0f;
     public Rigidbody head;
-    private CharacterController characterController;
     public LayerMask layerMask;
+    private CharacterController characterController;
     private Vector3 currentLookTarget = Vector3.zero;
 
     // Start is called before the first frame update
