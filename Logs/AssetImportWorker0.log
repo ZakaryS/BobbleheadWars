@@ -15,7 +15,7 @@ D:/School/GAME 312/Lab 1 - Bobblehead Wars 2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57531
+57698
 Successfully changed project path to: D:/School/GAME 312/Lab 1 - Bobblehead Wars 2022
 D:/School/GAME 312/Lab 1 - Bobblehead Wars 2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/School/GAME 312/Lab 1 - Bobblehead Wars 2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 51.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005831 seconds.
+Registered in 0.006451 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.456 seconds
+- Completed reload, in  0.469 seconds
 Domain Reload Profiling:
-	ReloadAssembly (456ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (469ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (318ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (324ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (72ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (193ms)
+			SetupLoadedEditorAssemblies (194ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (52ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002591 seconds.
+Registered in 0.003347 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\School\GAME 312\Lab 1 - Bobblehead Wars 2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\School\GAME 312\Lab 1 - Bobblehead Wars 2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
+- Completed reload, in  0.729 seconds
 Domain Reload Profiling:
-	ReloadAssembly (677ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (509ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (557ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (253ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (159ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (176ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3250 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (55.6 KB). Loaded Objects now: 3710.
 Memory consumption went from 111.6 MB to 111.5 MB.
-Total: 2.412700 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.074000 ms MarkObjects: 2.096000 ms  DeleteObjects: 0.045400 ms)
+Total: 2.796500 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.171700 ms MarkObjects: 2.307700 ms  DeleteObjects: 0.085800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,48 +160,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002821 seconds.
+Registered in 0.002443 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\School\GAME 312\Lab 1 - Bobblehead Wars 2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\School\GAME 312\Lab 1 - Bobblehead Wars 2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
+- Completed reload, in  0.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (787ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (605ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (484ms)
 			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (286ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3244 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (24.7 KB). Loaded Objects now: 3713.
+Unloading 16 unused Assets / (24.6 KB). Loaded Objects now: 3713.
 Memory consumption went from 111.5 MB to 111.4 MB.
-Total: 2.826500 ms (FindLiveObjects: 0.223200 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.476800 ms  DeleteObjects: 0.014100 ms)
+Total: 2.505600 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.181600 ms MarkObjects: 2.020800 ms  DeleteObjects: 0.012500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -215,55 +215,163 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 655552.139403 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb771928df898b74eef6af7df460f9e') in 0.028023 seconds 
+  Time since last request: 196526.296166 seconds.
+  path: Assets/Scripts/Alien.cs
+  artifactKey: Guid(7b1eaffeff984894fa6519196f92e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Alien.cs using Guid(7b1eaffeff984894fa6519196f92e5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dacc81e6ca893d8c874adf573efc13b') in 0.022845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.187191 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6185204067f63bb3edd7fb80f49d123b') in 0.001896 seconds 
+  Time since last request: 26864.845066 seconds.
+  path: Assets/Prefabs/Alien.prefab
+  artifactKey: Guid(aba47df4e303e0f448fc1defe34c4002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Alien.prefab using Guid(aba47df4e303e0f448fc1defe34c4002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7508fcd812bfe85ad4c8d376201b44') in 0.307729 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002565 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\School\GAME 312\Lab 1 - Bobblehead Wars 2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\School\GAME 312\Lab 1 - Bobblehead Wars 2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (509ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (144ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (24.7 KB). Loaded Objects now: 3723.
+Memory consumption went from 128.6 MB to 128.5 MB.
+Total: 3.027500 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.739500 ms  DeleteObjects: 0.012500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.407708 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fc0a72f430cd015de7e60795bdf39c') in 0.001863 seconds 
+  Time since last request: 926.810031 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(3b2574baf2162b74ca20eaee4217ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(3b2574baf2162b74ca20eaee4217ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc8f19a94966c0bf13427838e725b20') in 0.009436 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.423142 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241714d2a6a9c24666d5d81a5a001359') in 0.001926 seconds 
+  Time since last request: 65.887614 seconds.
+  path: Assets/Prefabs/Alien.prefab
+  artifactKey: Guid(aba47df4e303e0f448fc1defe34c4002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Alien.prefab using Guid(aba47df4e303e0f448fc1defe34c4002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2592b061d30b2fd50d3f4bde630a5117') in 0.077691 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.914007 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516f5d01c4b1ab05d8f4efefbc53c8bb') in 0.001987 seconds 
+  Time since last request: 15.097169 seconds.
+  path: Assets/Materials/Import/Bobble Wars Enemy texture.mat
+  artifactKey: Guid(6ba8616884eb54745bd33315e7a91ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Enemy texture.mat using Guid(6ba8616884eb54745bd33315e7a91ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b90b25cfd3439e9254309d987145936') in 0.079148 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.802684 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5622eb7fc213f22e87f1c69825811bd') in 0.002368 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Import/BobbleArena-Column-Main_Material.mat
+  artifactKey: Guid(67093b36b8fd241d2bcdc6c4a3cdf6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-Column-Main_Material.mat using Guid(67093b36b8fd241d2bcdc6c4a3cdf6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6087eb6a4d88167befa3f3ddf52697d') in 0.038604 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.128903 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6d9a2978d98561c6d02d885f55c133') in 0.002065 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 11.mat
+  artifactKey: Guid(6054ff1ae8df24c0eb3d7b00c57318ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 11.mat using Guid(6054ff1ae8df24c0eb3d7b00c57318ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d51642f205a9af74bfa42c760f212e') in 0.042505 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.187963 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df151fc4789eb1bb6267cc3368104eb') in 0.002536 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/Import/BobbleArena-Material.mat
+  artifactKey: Guid(00588df76d7ef4d21a9602d137b5a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-Material.mat using Guid(00588df76d7ef4d21a9602d137b5a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446910b412d043f0e6e0aa75b050411e') in 0.015115 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.133739 seconds.
-  path: Assets/Sounds/MasterMix.mixer
-  artifactKey: Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/MasterMix.mixer using Guid(ceb26ae27edba344eb591066f71ed02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8e1291a9aa931426839cac65f0581a') in 0.001843 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 8.mat
+  artifactKey: Guid(ab2ae8b93cf3b497982e598002c35d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 8.mat using Guid(ab2ae8b93cf3b497982e598002c35d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf965ec6fee63a264b0340c25adb4e7f') in 0.016689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Import/Arena/BobbleArena-Main_Texture__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(7ca6ca7f2f216094fbbefd936b5e6d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Arena/BobbleArena-Main_Texture__Bobble_Wars_Marine_texture_psd.mat using Guid(7ca6ca7f2f216094fbbefd936b5e6d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6621048b90abef31ffa60d8853e499c') in 0.013941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 2.mat
+  artifactKey: Guid(84744ef95e5d94195b26a56feafcbeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 2.mat using Guid(84744ef95e5d94195b26a56feafcbeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb04d9bb320c5767929b438e687add8') in 0.016143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/Import/BobbleArena-Main Texture.mat
+  artifactKey: Guid(578c991fd886f4f9a95eb8a6c2f43608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/BobbleArena-Main Texture.mat using Guid(578c991fd886f4f9a95eb8a6c2f43608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2d9b030bea3a5ccf52cc633967db73') in 0.014286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 7.mat
+  artifactKey: Guid(092aa57f97486468ea08171b8ae5efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 7.mat using Guid(092aa57f97486468ea08171b8ae5efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d404301c27920660614c74475f010f') in 0.017000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/Import/Arena/Main/BobbleArena-Main_Texture__Bobble_Wars_Marine_texture_psd.mat
+  artifactKey: Guid(6e8605e06193645aa9e9f0aaf6b2b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Arena/Main/BobbleArena-Main_Texture__Bobble_Wars_Marine_texture_psd.mat using Guid(6e8605e06193645aa9e9f0aaf6b2b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2e2cdec986cd46de8bb2681d48593e') in 0.011004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 5.mat
+  artifactKey: Guid(a323b00f2c0aa4b3191e6bce6ec48265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 5.mat using Guid(a323b00f2c0aa4b3191e6bce6ec48265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9182bbaac8d4be73cbff62dffc8c76a') in 0.014095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 9.mat
+  artifactKey: Guid(d91b8968d8e0a4ef8a2b8fbe40b52eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 9.mat using Guid(d91b8968d8e0a4ef8a2b8fbe40b52eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c530e1fa26b984a19231c5a161ec26c') in 0.015291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Import/Bobble Wars Marine texture 3.mat
+  artifactKey: Guid(8b599b919d555417d9715e5077fbb4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Import/Bobble Wars Marine texture 3.mat using Guid(8b599b919d555417d9715e5077fbb4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5ce8f7ad04efec8144da9d8e7a239a') in 0.017472 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
